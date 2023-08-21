@@ -1,6 +1,6 @@
 if SHIELD_4BY4
-  ............
+ 
   config ZMK_KEYBOARD_NAME
-  .... default "4by4"
+      default "4by4"
 
   endif
