@@ -2,4 +2,7 @@ file_format: "1"
 id: 4by4
 name: 4by4
 type: shield
+url: none
 requires: [pro_micro]
+features:
+  - keys
