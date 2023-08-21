@@ -1,0 +1,2 @@
+config SHIELD_4BY4
+....def bool $(shields_list_contains, 4by4)
