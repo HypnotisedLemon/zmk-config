@@ -32,7 +32,7 @@
 // |       |         |         |         |
 // |       |         |         |         |
 // |       |         |         |   RST   |
-// |   BT  |   BT 0  |   BT 1  |   BT 2  |
+// |       |   BT 0  |   BT 1  |   BT 2  |
 
             bindings = <
             &trans    &trans         &trans         &trans
