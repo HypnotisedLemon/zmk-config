@@ -6,6 +6,6 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: config/west.yml
+      import: config/boards/shields/4by4
   self:
     path: config
