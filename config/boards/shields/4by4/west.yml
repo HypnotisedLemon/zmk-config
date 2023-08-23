@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: HypnotisedLemon
+      url-base: https://github.com/HypnotisedLemon/zmk-config
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: config/boards/shields/4by4/west.yml
+      import: app/west.yml
   self:
     path: config
