@@ -34,15 +34,15 @@
             bt_layer {
 // ------------------------------------------------
 // |   BT 1  |   BT 2   |  BT 3   |  BT 4   |
-// |  BT RST |          |         | vol up  |
-// |   USB   |   BLE    |         | vol dn  |
-// |         |          |         |   RST   |
+// |  BT RST |          |         |         |
+// |   USB   |    BLE   |         | vol dn  |
+// |         |    RST   |         | vol up  |
 
             bindings = <
             &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
-            &bt BT_CLR     &trans         &trans         &kp C_VOL_UP
+            &bt BT_CLR     &trans         &trans         &trans
             &out OUT_USB   &out OUT_BLE   &trans         &kp C_VOL_DN
-            &none          &trans         &trans         &bootloader
+            &none          &bootloader    &trans         &kp C_VOL_UP
             >;
          };
     };
